@@ -1,0 +1,23 @@
+﻿<Window x:Class="Labs.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labs"
+        mc:Ignorable="d"
+        Title="Inheritance" Height="450" Width="400">
+    <Grid>
+        <!-- Base Class UI -->
+        <Label Content="Базовий клас: Кількість функцій" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="t1" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button Name="BaseClassButton" Content="Обрахувати базовий клас" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="150" Click="BaseClassButton_Click"/>
+
+        <!-- Derived Class UI -->
+        <Label Content="Похідний клас: Кількість функцій" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="t2" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Width="112"/>
+        <Label Content="Похідний клас: Назва" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="t3" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="113"/>
+        <Button Name="DerivedClassButton" Content="Обрахувати похідний клас" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="150" Height="26" Click="DerivedClassButton_Click"/>
+    </Grid>
+
+</Window>
